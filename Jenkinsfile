@@ -3,7 +3,7 @@ node{
 	withEnv(["PATH+MVN=${tool 'MVN'}/bin"]){
 		sh 'ls target'
 		sh 'env'
-		sh 'mvn verify'
+		sh 'mvn clean verify'
 		junit 'target/surefire-reports/*.xml'
 	}
 }
