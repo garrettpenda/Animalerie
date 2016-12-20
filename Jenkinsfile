@@ -1,5 +1,5 @@
 node{
-	chekout scm
+	checkout scm
 	withEnv(["PATH+MVN=${tool 'MVN'}/bin"]){
 		sh 'ls'
 		sh 'env'
