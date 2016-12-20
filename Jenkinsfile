@@ -4,5 +4,6 @@ node{
 		sh 'ls'
 		sh 'env'
 		sh 'mvn verify'
+		junit '**/surefire-reports/*.xml'
 	}
 }
