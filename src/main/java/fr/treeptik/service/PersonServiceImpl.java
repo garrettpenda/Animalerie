@@ -15,6 +15,9 @@ public class PersonServiceImpl {
 	@Autowired
 	private PersonRepository personrep;
 
+	public void setDAO(PersonRepository dao) {
+		this.personrep = dao;
+	}
 	
 	// get one
 	@Transactional

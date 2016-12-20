@@ -15,6 +15,10 @@ public class AnimalServiceImpl {
 	@Autowired
 	private AnimalRepository animalrep;
 	
+	public void setDAO(AnimalRepository dao) {
+		this.animalrep = dao;
+	}
+	
 	// get one
 	@Transactional
 	public Animal getAnimal(Long id) {
