@@ -16,7 +16,7 @@ import fr.treeptik.model.Animal;
 import fr.treeptik.repository.AnimalRepository;
 import fr.treeptik.service.AnimalServiceImpl;
 
-public class testanimal {
+public class animalTest {
 	
 	private AnimalServiceImpl animalservice ;
 	private AnimalRepository mockDAO;
